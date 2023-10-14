@@ -1,10 +1,10 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments;
+namespace QuantaForge\Backtrace\Arguments;
 
 use ReflectionParameter;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgument;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\TruncatedReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\TruncatedReducedArgument;
 
 class ProvidedArgument
 {

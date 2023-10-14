@@ -11,7 +11,7 @@
          verbose="true"
 >
     <testsuites>
-        <testsuite name="QuantaQuirk Test Suite">
+        <testsuite name="QuantaForge Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

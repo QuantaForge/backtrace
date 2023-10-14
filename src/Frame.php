@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Backtrace;
+namespace QuantaForge\Backtrace;
 
 class Frame
 {

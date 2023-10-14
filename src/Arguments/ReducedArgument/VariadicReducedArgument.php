@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments\ReducedArgument;
+namespace QuantaForge\Backtrace\Arguments\ReducedArgument;
 
 use Exception;
 

@@ -1,4 +1,4 @@
-3 namespace QuantaQuirk\Backtrace\Tests\TestClasses;
+3 namespace QuantaForge\Backtrace\Tests\TestClasses;
 4 
 5 use RuntimeException;
 6 

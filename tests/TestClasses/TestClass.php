@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Tests\TestClasses;
+namespace QuantaForge\Backtrace\Tests\TestClasses;
 
 use RuntimeException;
 

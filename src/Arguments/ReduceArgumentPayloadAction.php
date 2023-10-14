@@ -1,12 +1,12 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments;
+namespace QuantaForge\Backtrace\Arguments;
 
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgument;
 
 class ReduceArgumentPayloadAction
 {
-    /** @var \QuantaQuirk\Backtrace\Arguments\ArgumentReducers */
+    /** @var \QuantaForge\Backtrace\Arguments\ArgumentReducers */
     protected $argumentReducers;
 
     public function __construct(

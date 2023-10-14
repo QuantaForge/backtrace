@@ -1,18 +1,18 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Tests;
+namespace QuantaForge\Backtrace\Tests;
 
 use DateTime;
 use DateTimeImmutable;
 use DateTimeZone;
 use SensitiveParameterValue;
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Arguments\ProvidedArgument;
-use QuantaQuirk\Backtrace\Arguments\ReduceArgumentsAction;
-use QuantaQuirk\Backtrace\Tests\TestClasses\FakeIntBackedEnum;
-use QuantaQuirk\Backtrace\Tests\TestClasses\FakeStringBackedEnum;
-use QuantaQuirk\Backtrace\Tests\TestClasses\FakeUnitEnum;
-use QuantaQuirk\Backtrace\Tests\TestClasses\TraceArguments;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Arguments\ProvidedArgument;
+use QuantaForge\Backtrace\Arguments\ReduceArgumentsAction;
+use QuantaForge\Backtrace\Tests\TestClasses\FakeIntBackedEnum;
+use QuantaForge\Backtrace\Tests\TestClasses\FakeStringBackedEnum;
+use QuantaForge\Backtrace\Tests\TestClasses\FakeUnitEnum;
+use QuantaForge\Backtrace\Tests\TestClasses\TraceArguments;
 use stdClass;
 use Stringable;
 

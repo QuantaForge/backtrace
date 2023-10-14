@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments\ReducedArgument;
+namespace QuantaForge\Backtrace\Arguments\ReducedArgument;
 
 class UnReducedArgument implements ReducedArgumentContract
 {

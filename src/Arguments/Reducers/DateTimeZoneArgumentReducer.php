@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments\Reducers;
+namespace QuantaForge\Backtrace\Arguments\Reducers;
 
 use DateTimeZone;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgument;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\UnReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\UnReducedArgument;
 
 class DateTimeZoneArgumentReducer implements ArgumentReducer
 {

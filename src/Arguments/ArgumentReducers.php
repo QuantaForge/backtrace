@@ -1,19 +1,19 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments;
+namespace QuantaForge\Backtrace\Arguments;
 
-use QuantaQuirk\Backtrace\Arguments\Reducers\ArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\ArrayArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\BaseTypeArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\ClosureArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\DateTimeArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\DateTimeZoneArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\EnumArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\MinimalArrayArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\SensitiveParameterArrayReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\StdClassArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\StringableArgumentReducer;
-use QuantaQuirk\Backtrace\Arguments\Reducers\SymphonyRequestArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\ArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\ArrayArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\BaseTypeArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\ClosureArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\DateTimeArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\DateTimeZoneArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\EnumArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\MinimalArrayArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\SensitiveParameterArrayReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\StdClassArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\StringableArgumentReducer;
+use QuantaForge\Backtrace\Arguments\Reducers\SymphonyRequestArgumentReducer;
 
 class ArgumentReducers
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments;
+namespace QuantaForge\Backtrace\Arguments;
 
 use ReflectionException;
 use ReflectionFunction;
 use ReflectionMethod;
 use ReflectionParameter;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\VariadicReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\VariadicReducedArgument;
 use Throwable;
 
 class ReduceArgumentsAction
@@ -86,7 +86,7 @@ class ReduceArgumentsAction
         }
     }
 
-    /** @return null|Array<\QuantaQuirk\Backtrace\Arguments\ProvidedArgument> */
+    /** @return null|Array<\QuantaForge\Backtrace\Arguments\ProvidedArgument> */
     protected function getParameters(
         ?string $class,
         ?string $method

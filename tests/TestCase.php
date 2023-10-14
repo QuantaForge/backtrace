@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Tests;
+namespace QuantaForge\Backtrace\Tests;
 
 use PHPUnit\Framework\TestCase as PHPUnit;
 

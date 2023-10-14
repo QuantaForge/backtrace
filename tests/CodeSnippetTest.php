@@ -1,9 +1,9 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Tests;
+namespace QuantaForge\Backtrace\Tests;
 
-use QuantaQuirk\Backtrace\CodeSnippet;
-use QuantaQuirk\Snapshots\MatchesSnapshots;
+use QuantaForge\Backtrace\CodeSnippet;
+use QuantaForge\Snapshots\MatchesSnapshots;
 
 class CodeSnippetTest extends TestCase
 {

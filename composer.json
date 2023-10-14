@@ -1,8 +1,8 @@
 {
-    "name": "quantaquirk/backtrace",
+    "name": "quantaforge/backtrace",
     "description": "A better backtrace",
     "keywords": [
-        "quantaquirk",
+        "quantaforge",
         "backtrace"
     ],
     "license": "proprietary",
@@ -18,17 +18,17 @@
     "require-dev": {
         "ext-json": "*",
         "phpunit/phpunit": "^9.3",
-        "quantaquirk/phpunit-snapshot-assertions": "^1.0.0",
+        "quantaforge/phpunit-snapshot-assertions": "^1.0.0",
         "symfony/var-dumper": "^5.1"
     },
     "autoload": {
         "psr-4": {
-            "QuantaQuirk\\Backtrace\\": "src"
+            "QuantaForge\\Backtrace\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "QuantaQuirk\\Backtrace\\Tests\\": "tests"
+            "QuantaForge\\Backtrace\\Tests\\": "tests"
         }
     },
     "scripts": {

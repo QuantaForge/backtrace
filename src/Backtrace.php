@@ -1,11 +1,11 @@
 <?php
 
-namespace QuantaQuirk\Backtrace;
+namespace QuantaForge\Backtrace;
 
 use Closure;
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Arguments\ReduceArgumentsAction;
-use QuantaQuirk\Backtrace\Arguments\Reducers\ArgumentReducer;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Arguments\ReduceArgumentsAction;
+use QuantaForge\Backtrace\Arguments\Reducers\ArgumentReducer;
 use Throwable;
 
 class Backtrace
@@ -112,7 +112,7 @@ class Backtrace
     }
 
     /**
-     * @return \QuantaQuirk\Backtrace\Frame[]
+     * @return \QuantaForge\Backtrace\Frame[]
      */
     public function frames(): array
     {
@@ -158,7 +158,7 @@ class Backtrace
     }
 
     /**
-     * @return \QuantaQuirk\Backtrace\Frame[]
+     * @return \QuantaForge\Backtrace\Frame[]
      */
     protected function toFrameObjects(array $rawFrames): array
     {
@@ -236,7 +236,7 @@ class Backtrace
     }
 
     /**
-     * @param \QuantaQuirk\Backtrace\Frame[] $frames
+     * @param \QuantaForge\Backtrace\Frame[] $frames
      * @param \Closure $closure
      *
      * @return array

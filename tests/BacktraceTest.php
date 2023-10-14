@@ -1,15 +1,15 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Tests;
+namespace QuantaForge\Backtrace\Tests;
 
 use DateTime;
 use PHPUnit\Framework\TestSuite;
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Backtrace;
-use QuantaQuirk\Backtrace\Frame;
-use QuantaQuirk\Backtrace\Tests\TestClasses\FakeArgumentReducer;
-use QuantaQuirk\Backtrace\Tests\TestClasses\ThrowAndReturnExceptionAction;
-use QuantaQuirk\Backtrace\Tests\TestClasses\TraceArguments;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Backtrace;
+use QuantaForge\Backtrace\Frame;
+use QuantaForge\Backtrace\Tests\TestClasses\FakeArgumentReducer;
+use QuantaForge\Backtrace\Tests\TestClasses\ThrowAndReturnExceptionAction;
+use QuantaForge\Backtrace\Tests\TestClasses\TraceArguments;
 
 class BacktraceTest extends TestCase
 {
@@ -20,7 +20,7 @@ class BacktraceTest extends TestCase
 
         $this->assertGreaterThan(10, count($frames));
 
-        /** @var \QuantaQuirk\Backtrace\Frame $firstFrame */
+        /** @var \QuantaForge\Backtrace\Frame $firstFrame */
         $firstFrame = $frames[0];
 
         $this->assertEquals(__LINE__ - 7, $firstFrame->lineNumber);
@@ -32,12 +32,12 @@ class BacktraceTest extends TestCase
     /** @test */
     public function it_can_get_add_the_arguments()
     {
-        /** @var \QuantaQuirk\Backtrace\Frame $firstFrame */
+        /** @var \QuantaForge\Backtrace\Frame $firstFrame */
         $firstFrame = Backtrace::create()->frames()[0];
 
         $this->assertNull($firstFrame->arguments);
 
-        /** @var \QuantaQuirk\Backtrace\Frame $firstFrame */
+        /** @var \QuantaForge\Backtrace\Frame $firstFrame */
         $firstFrame = Backtrace::create()
             ->withArguments()
             ->frames()[0];
@@ -138,7 +138,7 @@ class BacktraceTest extends TestCase
     /** @test */
     public function it_can_get_the_snippet_around_the_frame()
     {
-        /** @var \QuantaQuirk\Backtrace\Frame $firstFrame */
+        /** @var \QuantaForge\Backtrace\Frame $firstFrame */
         $firstFrame = Backtrace::create()->frames()[0];
 
         $snippet = $firstFrame->getSnippet(5);
@@ -151,7 +151,7 @@ class BacktraceTest extends TestCase
     /** @test */
     public function it_can_get_the_snippet_properties()
     {
-        /** @var \QuantaQuirk\Backtrace\Frame $firstFrame */
+        /** @var \QuantaForge\Backtrace\Frame $firstFrame */
         $firstFrame = Backtrace::create()->frames()[0];
 
         $snippet = $firstFrame->getSnippetProperties(5);

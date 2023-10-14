@@ -1,6 +1,6 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Tests\TestClasses;
+namespace QuantaForge\Backtrace\Tests\TestClasses;
 
 use Closure;
 use DateTime;
@@ -8,7 +8,7 @@ use DateTimeImmutable;
 use DateTimeZone;
 use Exception;
 use SensitiveParameter;
-use QuantaQuirk\Backtrace\Backtrace;
+use QuantaForge\Backtrace\Backtrace;
 use stdClass;
 use Throwable;
 

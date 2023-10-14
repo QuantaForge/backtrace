@@ -1,20 +1,20 @@
 <?php
 
-namespace QuantaQuirk\Backtrace\Arguments\Reducers;
+namespace QuantaForge\Backtrace\Arguments\Reducers;
 
-use QuantaQuirk\Backtrace\Arguments\ArgumentReducers;
-use QuantaQuirk\Backtrace\Arguments\ReduceArgumentPayloadAction;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgument;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\TruncatedReducedArgument;
-use QuantaQuirk\Backtrace\Arguments\ReducedArgument\UnReducedArgument;
+use QuantaForge\Backtrace\Arguments\ArgumentReducers;
+use QuantaForge\Backtrace\Arguments\ReduceArgumentPayloadAction;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\ReducedArgumentContract;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\TruncatedReducedArgument;
+use QuantaForge\Backtrace\Arguments\ReducedArgument\UnReducedArgument;
 
 class ArrayArgumentReducer implements ReducedArgumentContract
 {
     /** @var int */
     protected $maxArraySize = 25;
 
-    /** @var \QuantaQuirk\Backtrace\Arguments\ReduceArgumentPayloadAction */
+    /** @var \QuantaForge\Backtrace\Arguments\ReduceArgumentPayloadAction */
     protected $reduceArgumentPayloadAction;
 
     public function __construct()
